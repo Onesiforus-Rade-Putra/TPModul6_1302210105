@@ -12,16 +12,16 @@ namespace TPModul6_1302210105
         private string title;
         private int playCount;
 
+        public void IncreasePlayCount(int count)
+        {
+            this.playCount = count;
+        }
         public SayaTubeVideo(string title)
         {
             Random rnd = new Random();
             this.title = title;
             this.playCount = 0;
             this.id = rnd.Next(100000);
-        }
-        public void IncreasePlayCount(int count)
-        {
-            this.playCount = count;
         }
         public void PrintVideoDetails()
         {
