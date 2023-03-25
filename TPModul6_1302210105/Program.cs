@@ -6,7 +6,7 @@ internal class Program
     private static void Main(string[] args)
     {
         SayaTubeVideo video = new SayaTubeVideo("Tutorial Design by Contract - Onesiforus Rade Putra");
-        video.IncreasePlayCount(10);
+        video.IncreasePlayCount(9);
         video.PrintVideoDetails();
     }
 }
